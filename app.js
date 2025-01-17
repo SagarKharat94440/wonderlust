@@ -67,9 +67,9 @@ const sessionOption = {
 };
  
 
-// app.get("/",(req, res)=>{
-//     res.send("Hi this is home root");
-// });
+ app.get("/",(req, res)=>{
+   res.send("Hi this is home root");
+ });
   
 app.use(session(sessionOption));
 app.use(flash());
